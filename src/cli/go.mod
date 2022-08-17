@@ -1,4 +1,4 @@
-module wraw
+module cli
 
 go 1.18
 
