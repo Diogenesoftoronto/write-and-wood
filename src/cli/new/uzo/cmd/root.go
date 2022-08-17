@@ -28,11 +28,15 @@ var cfgFile string
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:     "uzo",
+	Use:     "wraw",
 	Version: "1.0.0",
-	Short:   "uzo (Unzip and Open) can be used to unzip and open the directory withh IDE",
-	Long: `uzo (Unzip and Open) can be used to unzip the specified
-		   file into the folder and open that folder into the specified IDE or Text Editor`,
+	Short:   "wraw (write and wood) is a tool to help creative writers with their writing skills",
+	Long: `wraw (write and wood) can be used to manage prompts, engage with a community of writers,
+		   and help writers with their writing skills.
+		   It includes game like interactive activities, 
+		   and challenges to help you get started on your writing journey.
+		   For additional information visit:
+		   https://www.github.com/Diogenesoftoronto/write-and-wood/README.md`,
 	CompletionOptions: cobra.CompletionOptions{DisableDefaultCmd: true},
 	// Uncomment the following line if your bare application
 	// has an action associated with it:
@@ -55,7 +59,7 @@ func init() {
 	// Cobra also supports local flags, which will only run
 	// when this action is called directly.
 
-	//rootCmd.SetVersionTemplate("uzo (Unzip and Open) version 1.0.0")
+	//rootCmd.SetVersionTemplate("wraw (Unzip and Open) version 1.0.0")
 }
 
 // initConfig reads in config file and ENV variables if set.
@@ -68,10 +72,10 @@ func initConfig() {
 		home, err := os.UserHomeDir()
 		cobra.CheckErr(err)
 
-		// Search config in home directory with name ".uzo" (without extension).
+		// Search config in home directory with name ".wraw" (without extension).
 		viper.AddConfigPath(home)
 		viper.SetConfigType("yaml")
-		viper.SetConfigName(".uzo")
+		viper.SetConfigName(".wraw")
 	}
 
 	viper.AutomaticEnv() // read in environment variables that match
