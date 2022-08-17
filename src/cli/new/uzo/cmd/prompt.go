@@ -21,7 +21,7 @@ import (
 	"github.com/spf13/cobra"
 )
 
-// ideaCmd represents the idea command
+// promptCmd represents the prompt command
 var promptCmd = &cobra.Command{
 	Use:   "prompt [args]",
 	Short: "This command will respond with a prompt of your choice",
@@ -46,5 +46,5 @@ func init() {
 
 	// Cobra supports local flags which will only run when this command
 	// is called directly, e.g.:
-	// ideaCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
+	// promptCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
 }
