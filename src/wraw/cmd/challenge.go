@@ -55,7 +55,8 @@ var challengeCmd = &cobra.Command{
 	this example challenge will challenge you to write a prompt that must be written in 30 minutes,
 	must contain hello, and world, and must contain  the character "w" 10 times.
 	
-	for more information about the challenge please `,
+	For more additional information visit:
+	https://www.github.com/Diogenesoftoronto/write-and-wood/README.md`,
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("challenge called")
 	},
