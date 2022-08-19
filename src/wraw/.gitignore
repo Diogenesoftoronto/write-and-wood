@@ -1,5 +1,2 @@
-
 .env
-src/wraw/go.sum
-*.mod
 *.sum
