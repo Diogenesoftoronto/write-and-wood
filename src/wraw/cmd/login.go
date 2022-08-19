@@ -13,13 +13,20 @@ import (
 // loginCmd represents the login command
 var loginCmd = &cobra.Command{
 	Use:   "login",
-	Short: "A brief description of your command",
-	Long: `A longer description that spans multiple lines and likely contains examples
-and usage of using your command. For example:
-
-Cobra is a CLI library for Go that empowers applications.
-This application is a tool to generate the needed files
-to quickly create a Cobra application.`,
+	Short: "This command logs you in to your account.",
+	Long: `This command will help you log you in to your account.
+	
+	To log you in you need to provide your username and password.
+	
+	example: wraw login -u <username> -p <password>
+	
+	You can also log you in with your email address and password.
+	
+	example: wraw login -e <email> -p <password>
+	
+	You can also login using a secret token and userNAME
+	
+	example: wraw login -t <token> -u <username>`,
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("login called")
 	},
