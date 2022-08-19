@@ -1,0 +1,91 @@
+type Answer {
+	id: ID!
+	content: String!
+	created: Time!
+}
+type Time {
+	amount: String!
+}
+
+type Mutation {
+	createPrompt(userContent: UserInfo!, promptContent: PromptInfo): Prompt
+	createAnswer(userContent: UserInfo!, answerContent: AnswerInfo): Answer
+	createUser(userContent: UserInfo!): User
+	updateUser(userContent: UserInfo!): User
+	deleteUser(userContent: UserInfo!): User
+	updatePrompt(userContent: UserInfo!, promptContent: PromptInfo): Prompt
+	deletePrompt(userContent: UserInfo!, promptContent: PromptInfo): Prompt
+	updateAnswer(userContent: UserInfo!, answerContent: AnswerInfo): Answer
+	deleteAnswer(userContent: UserInfo!, answerContent: AnswerInfo): Answer
+}
+
+type Prompt {
+	id: ID!
+	content: String!
+	created: Time!
+	answers: [Answer]
+	type: PromptType!
+}
+
+type Challenge {
+	id: ID!
+	title: String!
+	created: Time!
+	description: String!
+	challengeType: [ChallengeType]!
+	prompts: [PromptInfo]
+}
+
+input ChallengeInfo {
+	id: ID!
+	created: Time!
+	description: String!
+	type: [ChallengeType]!
+}
+
+input PromptInfo {
+	id: ID!
+	created: Time!
+	content: String!
+	type: PromptType!
+}
+
+enum PromptType {
+	OTHER
+	SIMPLE
+	ESTABLISHED
+	DEFAULT
+}
+
+enum ChallengType {
+	TIME
+	RATING
+	CHARACTER
+	WORD
+	REGEX
+	RANDOM
+}
+
+type Query {
+	prompt: [Prompt]
+	user: [User]
+	answer: [Answer]
+}
+
+type User {
+	id: ID!
+	name: String
+	email: String
+	password: String!
+	bio: String
+	avatar: String
+	created: Time
+	answers: [Answer]
+	prompts: [Prompt]
+}
+
+input UserInfo {
+	id: ID!
+	name: String
+	email: String
+}
