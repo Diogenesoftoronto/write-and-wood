@@ -13,13 +13,38 @@ import (
 // historyCmd represents the history command
 var historyCmd = &cobra.Command{
 	Use:   "history",
-	Short: "A brief description of your command",
-	Long: `A longer description that spans multiple lines and likely contains examples
-and usage of using your command. For example:
+	Short: "This command shows the history of your prompts, challenges and more.",
+	Long: `This command will help you quickly get a list of your last answered prompts, challenges, 
+	and more. 
+	
+	To get a list of your last answered prompts simply use the history command without any arguments.
 
-Cobra is a CLI library for Go that empowers applications.
-This application is a tool to generate the needed files
-to quickly create a Cobra application.`,
+	example: wraw history
+
+	To get a list of your last answered prompts and challenges you can use the history command with the -c/--challenges flag for challenges,
+	and the -p/--prompts flag for prompts. 
+	
+	example: wraw history -c -p
+	This example returns the last five answered challenges and prompts.
+
+	Adding -a/--amount gives you the length of the history. 
+	
+	To got the total history, you can use the --all flag.
+	
+	example: wraw history --all
+	This example returns the total history.
+
+	You can also get the total history of prompts and challenges separately by passing the --all-prompts flag and the --all-challenges flag.
+
+	example: wraw history --all-challenges
+	This example returns the total history of challenges.
+
+	example: wraw history --all-prompts
+	This example returns the total history of prompts.
+	
+	In order for this command to work you should be signed in with you account first.
+		For additional information visit:
+		https://www.github.com/Diogenesoftoronto/write-and-wood/README.md`,
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("history called")
 	},
