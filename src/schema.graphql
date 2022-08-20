@@ -19,12 +19,20 @@ type Mutation {
 	deleteAnswer(userContent: UserInfo!, answerContent: AnswerInfo): Answer
 }
 
+type Engagement {
+	rating: Int!
+	views: Int!
+	age: String!
+	total: Int!
+}
+
 type Prompt {
 	id: ID!
 	content: String!
 	created: Time!
-	answers: [Answer]
 	type: PromptType!
+	answers: [Answer]
+	engagement: Engagement!
 }
 
 type Challenge {
