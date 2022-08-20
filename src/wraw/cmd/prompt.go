@@ -27,7 +27,19 @@ var promptCmd = &cobra.Command{
 	Short: "This command will respond with a prompt of your choice",
 	Long: `This command will help you manage getting and answering prompts.
 			To get a prompt simply use the prompt command without any arguments.
-			In order for this command to work you should be signed in with you account first. 
+
+			example: wraw prompt
+
+			You can also get a prompt by providing a prompt id. This is useful if you want to get 
+			a prompt that is not random prompt.
+
+			example: wraw prompt <promptid>
+
+			You can also get a prompts id.
+			
+			example: wraw prompt -id
+			This is important when you want to answer a specific prompt with publish. 
+			It is also useful when you want to get additional information about a prompt like its engagement score.
 			For additional information visit: 
 			https://www.github.com/Diogenesoftoronto/write-and-wood/README.md`,
 	Run: func(cmd *cobra.Command, args []string) {
