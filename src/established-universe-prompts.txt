@@ -1,86 +1,100 @@
 [
     {
         "Content": " You were one of the passengers of The Axiom and first humans to return to earth but little did you know not all humans evacuated earth and they’ve evolved into a subspecies.",
+        "Id": 0,
         "Type": "ESTABLISHED",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " Pokemon transferred to the professor are tagged, checked for health and released back into the wild. Professor Willow calls you, it seems you have caught and transferred the exact same Psyduck six times.",
+        "Id": 1,
         "Type": "ESTABLISHED",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " Over the years, Jigsaw realized people were getting dumber, so he started making easier and easier death games to compensate",
+        "Id": 2,
         "Type": "ESTABLISHED",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " You work the overnight shift at an industrial park. You're walking the halls of your building when out of nowhere you hear the Aperture Science jingle. Y-you don't work for Aperture Science.",
+        "Id": 3,
         "Type": "ESTABLISHED",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " After the war in Jotunheim, Odin found not one, but two babies - twins. Taken together, Lokis learn twice as fast. There came a day where Thor simply has had enough.",
+        "Id": 4,
         "Type": "ESTABLISHED",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " Describe the downfall of a Vault-Tec Vault not seen in the Fallout series.",
+        "Id": 5,
         "Type": "ESTABLISHED",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " As you look out onto the moons orbiting Saturn, you realize that one of them is not a moon at all. Sure we're now doomed, but you've been waiting for this day. You turn to your fellow scientist and say \"That's no moon\".",
+        "Id": 6,
         "Type": "ESTABLISHED",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     }
 ]
