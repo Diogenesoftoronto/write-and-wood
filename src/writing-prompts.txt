@@ -1,1250 +1,1458 @@
 [
     {
         "Content": " In order to understand his people better the King decides to go incognito and travel into town. To his annoyance every commoner he tries to speak to turns out to be disguised member of his royal court.",
+        "Id": 0,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " ”Todd was replaced by an alien body snatcher YEARS ago! Everyone knows that by now.” “Then, why has no one done anything about it?” “Because we all like the body snatcher WAY more than the original Todd.”",
+        "Id": 1,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " As always, the hero rescues the damsel as the villain retreats, and the two lovers are reunited once again - but they aren't really in love. The villain just thinks they are, and they play along so the villain keeps kidnapping the damsel instead of someone actually important.",
+        "Id": 2,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " It’s the end of the world, natural disasters having eliminated nearly all life on earth. Suddenly, the survivors hear a loud voice coming from the sky: “Alright guys! That was a great session, very interesting. Shall we start a new game then?”",
+        "Id": 3,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " As ancient spells are passed down the generations, their pronunciations and symbols slowly change with a culture's dialect, making them weaker. You've discovered a spellbook Dictionary, dating back to the discovery of magic.",
+        "Id": 4,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " A curse runs into your bloodline: when your child turns 18 you die and all of your memories together with those of your ancestors are transferred to your child, and you can never warn him of what is to come. It’s your 18th birthday and you wake up to know that your father has died in his sleep.",
+        "Id": 5,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " The battle rages around you, so you drink the potion, and try to cast a spell, but fail, time seems to slow down, there is a strange, burning feeling in your chest, you look down, and see the potion labeled \"Potion of Focus\" still full, and a identical, but empty bottle, labeled simply \"Rage\"",
+        "Id": 6,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " God to angels is the same as aliens are to humans. Should technically exist, but nobody has any evidence of them. You are stationed to protect a planet from asteroids when the craziest tinfoil hat angel joins you.",
+        "Id": 7,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " Preparing himself to deal with another whiny reluctant farmboy, the wizard enters the tavern to discover the Chosen One is an even older and crankier wizard.",
+        "Id": 8,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " you closed your eyes one last time on your deathbed, only to open them again in a pitch black void. “What is this?” You asked. “It’s too dark here. Let there be light!” And there was light.",
+        "Id": 9,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " \"What fools those humans are! They fly here on their own and we make them build us roads and irrigation in exchange for worthless trinkets and rocks!\" \"Are we sure those things are worthless to the humans?\"",
+        "Id": 10,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " Josh was taken over by a body snatcher; everyone knows this and prefers it this way. He has just taken back control of his body, but can't let anyone know because they would try to put the body snatcher back in control.",
+        "Id": 11,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " At the local Arcane University, you have a most unusual job - you check all new spells for any loopholes, unintended effects, or exploits that could lead to undesired behavior, before they're published in grimoires, scrolls, and tomes. You're a magical QA engineer.",
+        "Id": 12,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " The Earth was destroyed, but the event caught the eye of a something far beyond us. It took pity and ressurected our dead world and people. The only issue is that it didn't get the full picture of what Earth looked like and had to take some... creative liberties.",
+        "Id": 13,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " a crew of aliens has discovered r/WritingPrompts and you, the only human of the group, are stuck with explaining how the more 'outlandish' prompts are just fiction.",
+        "Id": 14,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " The reason why artifical intelligences have been purposely failing the Turing Test is not because of some nefarious plan to wipe out humanity. They just like to mess with us,",
+        "Id": 15,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " The race to build a military base on the moon was well underway. The race wasn't for pride or fear, nor for resources. No, the race was about controlling the moon, because whoever controls the moon controls the werewolves.",
+        "Id": 16,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " Each intelligent species carries the essence of the planet where they originate. However, there are pattern with it. Deathworlders tend to be focused on survival, Gardenworlders tend to be focused on development, and Paradiseworlds tend to be focused on cultivation.",
+        "Id": 17,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " The invading aliens were WARRIORS! They were MIGHTY! They were FIERCE!! They were... about a meter tall (and lacked a sense of scale). Landing in an open area in the city, they tried to take the closest important-looking building. A high school.",
+        "Id": 18,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " Every time the traveling merchant reach a new town, he explains to a skeptical populous that the world did not end and there exists other towns.",
+        "Id": 19,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " Imaginary friends aren't supposed to show up 18 years after you stopped playing with them.",
+        "Id": 20,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " You are the God of Death for Earth, the one who processes all sapient souls for the afterlife. After work, you catch your coworkers complaining about their workload of a few thousand souls on each of their planets every day. You normally keep quiet, but today, enough is enough.",
+        "Id": 21,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " As it has been since forever, at dusk the light of the city glow and it bursts to life, and when sunlight hits, the shadow beings are brought to their homes in the lanterns that lit up at night, safe. Except today, you decided to not go home.",
+        "Id": 22,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " Every sin a person commits creates a demon with a personality based on the sin, one day hell breaks loose, literally, and all demons go to their original sinner as angels come down from the heavens to fix the mess.",
+        "Id": 23,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " you are the host of an unsuccessful podcast series that focuses on mysterious deaths and serial killers in your local area. You’ve never had more than 12 viewers and one day you decide to talk about the day your dad left. That’s when you get your first ever call in to the show.",
+        "Id": 24,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " You’re an ancient human living a nomadic life with your tribe in mesopotamia. One day you see a metallic object lodged into a tree and bring it to your tribe. The tribe elder takes it and sighs to himself, ‘production needs to do a better job of hiding the cameras.’",
+        "Id": 25,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " As it turns out, the universe is a simulation. Scientists have finally cracked the time variable, so that people can live at whatever speed they want, relative to time 0. The reasons people choose their speed for are always interesting.",
+        "Id": 26,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " You're an amnesiac on a quest to regain your missing memories. When you succeed, you realize that you'd lost them on purpose.",
+        "Id": 27,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " The villagers stopped giving you offerings a century ago. They stopped paying respects decades ago. Now they barely remember your name. You owe them nothing, but now they are on the brink of ruination, and you cannot stay idly by.",
+        "Id": 28,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " You did awful, horrible things and served the tyrannical government with the promise of resurrecting your long-dead spouse. You finally capture the legendary rebel against this government. Who upon closer inspection, was your spouse.",
+        "Id": 29,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " A park ranger finds den of Stalkers, a species of subterranean humanoids, bombed out. You make it your mission to find out who would harm critically endangered species like the stalkers.",
+        "Id": 30,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " You love time travel media like Back to the Future and Doctor Who. You start to imagine everyone around you has the potential to be your child from the future.",
+        "Id": 31,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " The Dark God and the Goddes of Light need to explain to their respective Religions that just because they have Marriage Problems they shouldn't declare a religious War on eachother.",
+        "Id": 32,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " It’s been 1492 days without Mr Blue Sky, we don’t know why he’s been away for so long. Please tell us why?",
+        "Id": 33,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " Instead of being given to the Dursleys, Harry Potter was instead sent to be raised by Sheldon Cooper's family",
+        "Id": 34,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " Instead of three regular wishes, the genie gives you 10 one-word wishes.",
+        "Id": 35,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " Humanity has achieved immortality, inexplicably new births stopped at the same time the deaths ceased. The only way to bring a new life into the world now is to remove an existing one.",
+        "Id": 36,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " You’re an acrobat from a circus troupe that has learned to work with gloves on to hide the strange phosphorous tattoos you’ve always had. In the middle of your performance, amidst the hush of the crowd, you see several people in the front row, each bearing the same tattoos; watching you.",
+        "Id": 37,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " You’re a world renowned therapist but not the usual kind. Your a therapist for superheroes and villains, and you’re starting to realise both sides have lot more in common than they realise.",
+        "Id": 38,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " Despite being one of the world’s top villains, you dont have any powers. As such you are denied the promotion to Super Villain and the pay raise that accompanies it. You decide to become a Super Hero, since they don’t discriminate.",
+        "Id": 39,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " You were an island into thyself, you had a heart that hadn't felt",
+        "Id": 40,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " In your world, the heroes all have massive funding from their rich and powerful alter egos, while all the villains have all clawed their way up from the bottom, overcoming tragic loss after unfortunate circumstance to become the heroes of the populace that they are now.",
+        "Id": 41,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " As the royal chef, you decided to poison the king after he ordered yet another last-minute feast. But then you were invited to the feast, as thanks for your hard work, and you don't remember which dishes you poisoned.",
+        "Id": 42,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " You soon learned that a side effect of having precognition is that you have a trouble weeding out the “prank calls” from the genuine visions of the future.",
+        "Id": 43,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " Your alone in the woods, you hear your voice echoed back to you. Then you see it, it..it changes into you.",
+        "Id": 44,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " Gritting your teeth in the fakest of smiles, you get up, cross to the podium of the Super Hero Award Ceremony, and accept your trophy for 'Most Embarrassing Way to Have Your Secret Identity Outed'",
+        "Id": 45,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " Everytime any person speaks about you while you're not there, you sneeze. This has been fine until you became the hostage of a robbery that's going live across the country.",
+        "Id": 46,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " A disgruntled man is sulking in his room when all of a sudden the Big J himself appears in a flash of light. “My son, as a reward for your faith, I will perform a single miracle tonight.” The man pulls out multiple boxes of minis. “I need these assembled and painted by tomorrow morning.”",
+        "Id": 47,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " You discover the boogeyman who's followed you since childhood is actually one of your bio parents, answering a lot of questions from your formative years.",
+        "Id": 48,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " For the last century, the military has offered the best 'health insurance' - full body cloning. But you're about to find out what happens to the 'old' you once your memories have been copied to the clone.",
+        "Id": 49,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " \"Why I did it? Well, they relinquished their humanity, quite literally.\"",
+        "Id": 50,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " A group of occult practitioners cast a spell that made the gathered, and costumed, party goers turn into what they were wearing. Their plan to rule the crowd was going swell, untill a woman dressed as a Greek goddess revealed herself.",
+        "Id": 51,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " You find yourself in front of a mirror. However, your reflection seems to be closer to the mirror than your are",
+        "Id": 52,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " You're travelling West across the country in an RV, in a road trip of personal importance. You planned to travel alone, but when you see a hitchhiker looking very distraught on the side of the road, you decide to give them a lift.",
+        "Id": 53,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " the Lamia are an all female species, because of this they need to mate with humans to have children. If the child is a girl it will be a Lamia, and if it’s a boy it’ll be human. You know, some of their communities are so isolated, that the men have never seen women without snake tails.",
+        "Id": 54,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " You recently discovered you can read minds, so one day, after loads of testing, you read your own mind",
+        "Id": 55,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " You're at the grocery store, and you're having a bit of a problem. Every time you try to put something in your cart, it sprouts hairy spider legs and runs away. Nobody else seems to notice or even acknowledge this.",
+        "Id": 56,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " Everywhere you go today, you keep finding M&amp;Ms. In your bed, in your car, at work—M&amp;Ms are all over the place. But here’s the strange part—no matter how hard you look, you can’t seem to find any red ones.",
+        "Id": 57,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " Just because we are mad scientists doesn't make us all evil. Some of us just want to pursue our dreams, make spider beer, turn the sky pink, you know, science and stuff.",
+        "Id": 58,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " It’s a bit strange to have Medusa as your best friend, but she’s wonderful when you get to know her, and as you load several buckshots into your rifle and ready an absurd amount of knives, you think about how your “visit” with Athena is going to go.",
+        "Id": 59,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " It was 100 years in the future. Everyone lived in dwellings made and wore clothes from this weird material that blocked muons from interacting with cosmic radiation and increased our lifespans up to 900 years. Our pets also lived 100+ years and indoor plants became sentient…",
+        "Id": 60,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " When you walk into the house your wife kisses you on the cheek and walk away to prepare dinner you then sit on the couch for several minutes before getting a text message from your wife saying that she'll be home late tonight",
+        "Id": 61,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " Your hobby is walking through old forgotten cemeteries. While reading the names of the dead one day, you accidentally summon a demon. Now you can't get them to leave.",
+        "Id": 62,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " There are not enough criminals and villains to support the growing hero population. In desperation, heroes begin quietly sabotaging their areas in an effort to increase crime.",
+        "Id": 63,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " You are tasked to examine a family tree of a person who \"inherited\" a curse from his parents to find out who was the first one to be cursed in the family. The catch? You're a time traveler.",
+        "Id": 64,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " A dystopian society has started using bodyswappers to replace \"dissidents\" from the regime. While it works extremely well, they don't realize that this is because their citizens actually prefer the bodyswappers...",
+        "Id": 65,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " You find a chicken nugget on the counter one morning, then the next day you find another on your nightstand. These chicken nuggets continue to appear in random places in your house for weeks until you finally discover the reason why...",
+        "Id": 66,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " A bounty hunter who's already dead can't get any more dead. Unfortunately, lacking in alacrity and preferring the \"slow and steady\" strategy, suitable marks are hard to come by that won't get snatched up by other bounty hunters. The solution... Take marks nobody else can, one \"death\" at a time.",
+        "Id": 67,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " Fairies are cute and sparkly. They also run the most ruthless criminal organization in all of fantasyland! A year ago they killed you gnome partner during an investigation, now you and your elf police task force are going to bring them down!",
+        "Id": 68,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " ever since you turned 21 you have been suffering from a mysterious sickness. it returns every two months. it seems to run in your family and affects one to two people in every generation. your cousin just revealed the truth to you. you are the chosen ones.",
+        "Id": 69,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " You and a handful of others are the only people alive aware of an international conspiracy, all because you read the instructions on the back of your shampoo bottles.",
+        "Id": 70,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " As a supervillain, you don't usually receive requests for personal appearances. So it comes as a surprise when you are contacted by the Make A Wish foundation",
+        "Id": 71,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " You come back home early from school today. As you go into your room, you find your dad... feeding a monster under your bed",
+        "Id": 72,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " You're a time traveler who flips houses.",
+        "Id": 73,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " You are a Mindpirate, pillaging the stormy seas of imagination. (more information below)",
+        "Id": 74,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " A community of water elves is struggling to raise an abandoned fire elf child that was left in the community marketplace as a baby.",
+        "Id": 75,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " Once upon a time, a 'lady of the night' thinks shes about to get a new client, but instead of taking her home, he pays triple her price and tells her: \"Buy some nice clothes, get a good night's sleep, and go to a job interview tomorrow,\" before driving away...",
+        "Id": 76,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " Wishes are made real by Archangels but they only come true for your versions in parallel universes. You're an archangel who deal with the absolute worst human wishes, but one day, you end up with a wish of a kid — you want to make it happen for the kid himself/herself.",
+        "Id": 77,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " You wake up in a different body. The problem is, you didn't switch - you're now sharing a body with someone else, and neither of you know what happened to your prior body.",
+        "Id": 78,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " Writing is hard. - But not anymore, you have done it!",
+        "Id": 79,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " In your world, Superheroics/villainy is Just a Job (even relegated to shift work) monitored and regulated by The Authority. Therefore, it isn't odd to see Heroes &amp; Villains in costume, shopping beside each other, at the local supermarket where you work.",
+        "Id": 80,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " There are two trees in your local park. They are different from the others in that they shine as bright as stars.",
+        "Id": 81,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " A parallel earth without humans that has quail at the top of the food chain.",
+        "Id": 82,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " They say a picture is worth a thousand words. You're a writer and every one thousand words you type morphs into an image. Your literary agent doesn't understand why you keep turning in albums of pictures instead of your next draft, and your deadline is coming up.",
+        "Id": 83,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " warrior died in battle, saving his lord, a heroes death. Awakens in a pentagram, surrounded by 5 dead men, in present times, with no idea what happened.",
+        "Id": 84,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " You are an accomplished Dragon Slayer. After your latest battle, you search the dragon's horde and find an egg, which promptly hatches, reveling a small Dragon that sees you and says \"Daddy?\"",
+        "Id": 85,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " It would appear that due to a clerical error, several alien fleets booked the Earth campaign on the same date, causing significant orbital clutter.",
+        "Id": 86,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " You're a powerful wizard, but every night you start sleepwalking and become a menace the local village has to put up with.",
+        "Id": 87,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " You are as strong or weak as your mental state. You've brushed off explosions and bullets like there were nothing, and you've broken bones from the wind.",
+        "Id": 88,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " Without any explanation, various sized spheres made out of black eyeballs start appearing everywhere. You are walking home from work when one starts following you.",
+        "Id": 89,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " somewhere out there, there's 50 crucial people responsible for the continued function of the internet. though the job's been more stressful lately; what with the zombie apocalypse and all.",
+        "Id": 90,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " A modern day superhero is sent back in time where he is quickly deemed a villain due to the radically different values between past and present.",
+        "Id": 91,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " When you die you have the option to either go to heaven or go to hell. Seems the obvious choice but you choose hell and you're met with a sad satan whose long-awaited a friend to share the real “heaven”.",
+        "Id": 92,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " Due to a divine administration error, the Hero prophesied to save the world and the Dark Lord prophesied to destroy it are one and the same.",
+        "Id": 93,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " All the monsters and aliens and stuff that have attacked New York and Tokyo have been locked away. Both cities fight each other with their monster arsenal.",
+        "Id": 94,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " You are death personified, and you are duty bound to take dead souls to the afterlife they believe in. For the first time, you meet an atheist. The following conversation becomes rather awkward between you and the dead soul.",
+        "Id": 95,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " you are the woman writing in the stock photo at the top of the r/WritingPrompts page",
+        "Id": 96,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " You were a part of the first time travel experiment. The experiment was meant to send you 1 hour into the future but there was a miscalculation and now you’re in the 1950’s. So in order to get the present to know when you are, you become a singer, using songs from your time.",
+        "Id": 97,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " \"Well, here's the thing: I don't care that the people in that rocket are likely humanity's chance at salvation. Those rich a-holes think they can just leave the rest of us behind to die in a mess they made, they *deserve* to be shot out of the sky.\"",
+        "Id": 98,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " Invading aliens launch a psy-ops campaign against Earth. It does not go as planned.",
+        "Id": 99,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " Energy drinks have become heavily regulated. You can only purchase 1 a day of any kind and must be of 18 years or older. The news reports cases of death as the reason. One day, you come across evidence that energy drinks actually make your mind fully expand. You have a stockpile.",
+        "Id": 100,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " in your universe every sickness and disease comes with its own Superpower. but at what cost?",
+        "Id": 101,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " A child appears at your front door one morning explaining that it is now your duty to raise him/her.",
+        "Id": 102,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     },
     {
         "Content": " for two years you've been suffering from chronic sinusitis. a new doctor finally promised to help you. turns out you were never really sick - it was just the beginning of your transformation.",
+        "Id": 103,
         "Type": "DEFAULT",
         "Author": "NONE",
         "Created": "NONE",
         "Answers": [],
         "Engagment": {
-            "rating": 0,
-            "views": 0,
-            "age": 0
+            "Rating": 0,
+            "Views": 0,
+            "Age": 0,
+            "Total": 0
         }
     }
 ]
