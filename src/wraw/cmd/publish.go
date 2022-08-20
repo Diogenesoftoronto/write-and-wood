@@ -13,13 +13,26 @@ import (
 // publishCmd represents the publish command
 var publishCmd = &cobra.Command{
 	Use:   "publish",
-	Short: "A brief description of your command",
-	Long: `A longer description that spans multiple lines and likely contains examples
-and usage of using your command. For example:
+	Short: "This command publishes your prompts and challenges for others to enjoy!",
+	Long: `This command publishes your work so others can enjoy!
+	In order for this command to work you should be signed in with you account first. 
+	
+	example: wraw publish <path/to/file>
+	
+	By default, the command without arguments will publish a *.wraw.txt or *.wraw.md to our site.
+	The file must be in the current working directory. The file must be either a markdown or txt file.
+	If you are working on a challenge the file will be used as a response to that challenge.
+	Otherwise, the publish command will be a response to the current prompt.
+	You can demand this behavior explicitly by passing the --challenge/-c flag 
+	or --prompt/-p flag for your given prompt/challenge id.
 
-Cobra is a CLI library for Go that empowers applications.
-This application is a tool to generate the needed files
-to quickly create a Cobra application.`,
+	example: wraw publish <path/to/file> -c <challengeid>
+	example: wraw publish <path/to/file> -p <promptid>
+
+
+	You can publish your responses on other sites that are supported if you provide your credentials.
+	For additional information, please see the online documentation @
+	https://www.github.com/Diogenesoftoronto/write-and-wood/src/wraw/README.md`,
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("publish called")
 	},
