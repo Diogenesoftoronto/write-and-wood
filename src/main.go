@@ -1,13 +1,14 @@
 package main
 
 import (
+	"bytes"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
 	"log"
 	"os"
+	"reflect"
 	"strconv"
-	"time"
 
 	"github.com/charmbracelet/charm/kv"
 )
@@ -30,16 +31,6 @@ type Engagement struct {
 type PromptData struct {
 	Id          int        `json:"Id"`
 	Content     string     `json:"Content"`
-	Created     time.Time  `json:"Created"`
-	Type        string     `json:"Type"`
-	Author      string     `json:"Author"`
-	Answers     []Answer   `json:"Answers"`
-	Engagements Engagement `json:"Engagement"`
-}
-
-type protoPromptData struct {
-	Id          int        `json:"Id"`
-	Content     string     `json:"Content"`
 	Created     string     `json:"Created"`
 	Type        string     `json:"Type"`
 	Author      string     `json:"Author"`
@@ -50,16 +41,16 @@ type protoPromptData struct {
 func main() {
 	// Open a database (or create one if it doesn’t exist)
 	db, err := kv.OpenWithDefaults("wraw-cli-db")
-	// fmt.Println("type of db: ", reflect.TypeOf(db))
+	fmt.Println("type of db: ", reflect.TypeOf(db))
 	if err != nil {
 		log.Fatal("Error opening database: ", err)
 	}
 	defer db.Close()
 
 	// Fetch updates and easily define your own syncing strategy
-	if err := db.Sync(); err != nil {
-		log.Fatal("error syncing database: ", err)
-	}
+	// if err := db.Sync(); err != nil {
+	// 	log.Fatal("error syncing database: ", err)
+	// }
 
 	// unmarshal the json file into the db
 	jsonFIle, err := os.Open("all-prompts.json")
@@ -68,8 +59,8 @@ func main() {
 	}
 	defer jsonFIle.Close()
 	byteJson, _ := ioutil.ReadAll(jsonFIle)
-	var prompts []protoPromptData
-
+	var prompts []PromptData
+	// jsonString := string(byteJson)
 	if err := json.Unmarshal(byteJson, &prompts); err != nil {
 		log.Fatal("error unmarshalling json: ", err)
 	}
@@ -77,57 +68,51 @@ func main() {
 	for k, v := range prompts {
 		fmt.Printf("adding PromptData %v to database. Value: %v\n", k, v)
 		// encode promptdata into a byte array
-		jsonString := fmt.Sprintf(`{
-			"Content": %v,
-			"Id": %v,
-			"Type": %v,
-			"Author": "NONE",
-			"Created": %v,
-			"Answers": [],
-			"Engagment": {
-				"Rating": 0,
-				"Views": 0,
-				"Age": 0,
-				"Total": 0
-			}
-		}`, v.Content, k, v.Type, time.Now())
-		set_db_json, err := json.Marshal(jsonString)
-		if err != nil {
-			log.Fatal("error marshalling data: ", err)
-		} else {
-			fmt.Println("set_db_json: ", string(set_db_json))
-		}
+		bytePromptData := bytes.NewBuffer([]byte{})
+		encoder := json.NewEncoder(bytePromptData)
+		encoder.Encode(v)
+		// fmt.Println(json.Valid(bytePromptData.Bytes())) // true
 
 		// set data in the data base
-		if err := db.Set([]byte("PromptData "+strconv.Itoa(k)), set_db_json); err != nil {
+		if err := db.Set([]byte("PromptData "+strconv.Itoa(k)), bytePromptData.Bytes()); err != nil {
 			log.Fatal("data was not set in db: ", err)
 		}
-		fmt.Printf("Succesfully added PromptData %v to database.\n", k)
 
-	}
-	// get values from the db
-	for k, v := range prompts {
-		// get data from the data base
-		fmt.Printf("getting data from database: %v\n", v)
+		// fmt.Printf("Succesfully added PromptData %v to database.\n", k)
+		// fmt.Printf("getting data from database: %v\n", v)
+		// get data from the database
 		data, err := db.Get([]byte("PromptData " + strconv.Itoa(k)))
 		if err != nil {
 			log.Fatal("error getting data from db: ", err)
 		}
 		// convert the data into a promptdata struct
 		var data_decoded PromptData
-		//  convert data to a string then unmarshall data as json then unmarshall as promptdata struct
-		dataString := string(data)
-		dbjson, err := json.Marshal(dataString)
-		if err != nil {
-			log.Fatal("error marshalling data: ", err)
-		} else {
-			fmt.Println("dbjson: ", string(dbjson))
-		}
-		if err = json.Unmarshal(dbjson, &data_decoded); err != nil {
+		if err = json.Unmarshal(data, &data_decoded); err != nil {
 			fmt.Println("error unmarshalling data: ", err, "| data: ", string(data))
 		} else {
 			fmt.Printf("data retreived successfully from database: %s\n", data_decoded)
 		}
 	}
+	// get values from the db
+	// for k, v := range prompts {
+	// get data from the data base
+	// fmt.Printf("getting data from database: %v\n", v)
+	// data, err := db.Get([]byte("PromptData " + strconv.Itoa(k)))
+	// if err != nil {
+	// 	log.Fatal("error getting data from db: ", err)
+	// }
+	// // convert the data into a promptdata struct
+	// var data_decoded PromptData
+	// if err != nil {
+	// 	log.Fatal("error marshalling data: ", err)
+	// } else {
+	// 	fmt.Println("data: ", string(data))
+	// }
+	// if err = json.Unmarshal(data, &data_decoded); err != nil {
+	// 	fmt.Println("error unmarshalling data: ", err, "| data: ", string(data))
+	// } else {
+	// 	fmt.Printf("data retreived successfully from database: %s\n", data_decoded)
+	// }
+	// }
 
 }
