@@ -30,6 +30,16 @@ type Engagement struct {
 type PromptData struct {
 	Id          int        `json:"Id"`
 	Content     string     `json:"Content"`
+	Created     time.Time  `json:"Created"`
+	Type        string     `json:"Type"`
+	Author      string     `json:"Author"`
+	Answers     []Answer   `json:"Answers"`
+	Engagements Engagement `json:"Engagement"`
+}
+
+type protoPromptData struct {
+	Id          int        `json:"Id"`
+	Content     string     `json:"Content"`
 	Created     string     `json:"Created"`
 	Type        string     `json:"Type"`
 	Author      string     `json:"Author"`
@@ -58,7 +68,7 @@ func main() {
 	}
 	defer jsonFIle.Close()
 	byteJson, _ := ioutil.ReadAll(jsonFIle)
-	var prompts []PromptData
+	var prompts []protoPromptData
 
 	if err := json.Unmarshal(byteJson, &prompts); err != nil {
 		log.Fatal("error unmarshalling json: ", err)
@@ -68,11 +78,11 @@ func main() {
 		fmt.Printf("adding PromptData %v to database. Value: %v\n", k, v)
 		// encode promptdata into a byte array
 		jsonString := fmt.Sprintf(`{
-			"Content": "%v",
+			"Content": %v,
 			"Id": %v,
-			"Type": "%v",
+			"Type": %v,
 			"Author": "NONE",
-			"Created": "%s",
+			"Created": %v,
 			"Answers": [],
 			"Engagment": {
 				"Rating": 0,
@@ -80,10 +90,16 @@ func main() {
 				"Age": 0,
 				"Total": 0
 			}
-		}`, v.Content, strconv.Itoa(k), v.Type, time.Now())
+		}`, v.Content, k, v.Type, time.Now())
+		set_db_json, err := json.Marshal(jsonString)
+		if err != nil {
+			log.Fatal("error marshalling data: ", err)
+		} else {
+			fmt.Println("set_db_json: ", string(set_db_json))
+		}
 
 		// set data in the data base
-		if err := db.Set([]byte("PromptData "+strconv.Itoa(k)), []byte(jsonString)); err != nil {
+		if err := db.Set([]byte("PromptData "+strconv.Itoa(k)), set_db_json); err != nil {
 			log.Fatal("data was not set in db: ", err)
 		}
 		fmt.Printf("Succesfully added PromptData %v to database.\n", k)
@@ -99,11 +115,19 @@ func main() {
 		}
 		// convert the data into a promptdata struct
 		var data_decoded PromptData
-		if err = json.Unmarshal(data, &data_decoded); err != nil {
-			log.Fatal("error unmarshalling data: ", err, "| data: ", string(data))
+		//  convert data to a string then unmarshall data as json then unmarshall as promptdata struct
+		dataString := string(data)
+		dbjson, err := json.Marshal(dataString)
+		if err != nil {
+			log.Fatal("error marshalling data: ", err)
+		} else {
+			fmt.Println("dbjson: ", string(dbjson))
 		}
-
-		fmt.Printf("data retreived successfully from database: %s\n", data_decoded)
+		if err = json.Unmarshal(dbjson, &data_decoded); err != nil {
+			fmt.Println("error unmarshalling data: ", err, "| data: ", string(data))
+		} else {
+			fmt.Printf("data retreived successfully from database: %s\n", data_decoded)
+		}
 	}
 
 }
