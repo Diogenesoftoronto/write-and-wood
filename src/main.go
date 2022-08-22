@@ -24,6 +24,7 @@ type Engagement struct {
 	Rating string `json:"Rating"`
 	Views  string `json:"Views"`
 	Age    string `json:"Age"`
+	Total  string `json:"Total"`
 }
 
 type PromptData struct {
@@ -67,9 +68,9 @@ func main() {
 		fmt.Printf("adding PromptData %v to database. Value: %v\n", k, v)
 		// encode promptdata into a byte array
 		jsonString := fmt.Sprintf(`{
-			"Content": %s,
-			"Id": %s,
-			"Type": "%s",
+			"Content": "%v",
+			"Id": %v,
+			"Type": "%v",
 			"Author": "NONE",
 			"Created": "%s",
 			"Answers": [],
