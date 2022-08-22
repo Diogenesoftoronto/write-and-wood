@@ -13,13 +13,20 @@ import (
 // versionCmd represents the version command
 var versionCmd = &cobra.Command{
 	Use:   "version",
-	Short: "A brief description of your command",
-	Long: `A longer description that spans multiple lines and likely contains examples
-and usage of using your command. For example:
-
-Cobra is a CLI library for Go that empowers applications.
-This application is a tool to generate the needed files
-to quickly create a Cobra application.`,
+	Short: "version control manager for wraw.",
+	Long: `A version control manager for wraw.
+	
+	example: wraw version
+	
+	This command will print the current version of wraw.
+	
+	
+	example: wraw version --list
+	
+	This command will list the current available version.
+	`,
+// Compare this snippet from src\wraw\main.go:
+// /*
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("version called")
 	},
