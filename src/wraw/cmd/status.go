@@ -18,7 +18,7 @@ var statusCmd = &cobra.Command{
 	
 	example: wraw status
 	
-	this will show the amount of views you have, and other engagment stats about you and your content.
+	This will show the amount of views you have, and other engagment stats about you and your content.
 	Understanding how other people engage with your content is very important to writers.
 	The status command gives you information about engagment but it also provides information about your writing.
 	It will tell you the number of challenges you have completed, the number of prompts created, 
@@ -33,28 +33,19 @@ var statusCmd = &cobra.Command{
 			Default is to display your current metrics. But this can be set with the --time/-t flag. 
 			Passing a date will display the metrics overtime between then in now.
 		- "--views/-v": This flag shows you just the view metrics. Like the engagment metrics, this can be set with the --time/-t flag. 
-		 You can also use the --prompt/-p or --challenge/-c flags to show the view metrics for a specific prompt or challenge., 
-		 or that must or must not contain certain words.
-		- "characters": This is a character-based challenge. 
-			You will be challenged to write a prompt that contains or does not contain a given list of characters.
-		- "regex": This is a regular expression challenge.
-			You will be challenged to write a prompt that matches a given regular expression. The expression must be set in 
-			the -e flag. Otherwise, the challenge will be invalid. regex match in gosyntax.
-		- "random": This is a random challenge.
-			You will be challenged to write a prompt with a random set of complex status flags. 
-			The complexity can be set with the -rc flag.
-	status flags can be set to be private or public. 
-	Private status flags are only visible to you and the player you are challenging.
+		 You can also use the --prompt/-p or --challenge/-c flags to show the view metrics for a specific prompt or challenge. 
+		- "--words": This shows you just the words metrics. Like the engagment metrics, this can be set with the --time/-t flag.
+			You can observe how many words you have written overtime to see if you are increasing or not. 
+		- "commits": This shows you how many changes or additions you have made.
+			Those familiar with programming the system is very similar to git. You can set the time as usual with the --time/-t flag.
 	
-	You can combine status flags to create a more complex challenge.
+	You can combine status flags to create a more statistics.
 	
-	wraw challenge time words characters -ti 30 -wr "hello, world" -ch "w" -cc 10
+	wraw status -e -v -w
 	
-	this example challenge will challenge you to write a prompt that must be written in 30 minutes,
-	must contain hello, and world, and must contain  the character "w" 10 times.
+	this example status will show you how many words you have written, your engagment metrics, and the views.
 		
 	If you are not logged in this command will not work.
-	no arguments are required.
 	
 	For additional information, please see the online documentation @
 	https://www.github.com/Diogenesoftoronto/write-and-wood/src/wraw/README.md`,
