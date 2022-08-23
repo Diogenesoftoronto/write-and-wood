@@ -53,7 +53,7 @@ func main() {
 	// }
 
 	// unmarshal the json file into the db
-	jsonFIle, err := os.Open("all-prompts.json")
+	jsonFIle, err := os.Open("New-prompts.json")
 	if err != nil {
 		log.Fatal("error opening json file: ", err)
 	}
@@ -89,30 +89,10 @@ func main() {
 		var data_decoded PromptData
 		if err = json.Unmarshal(data, &data_decoded); err != nil {
 			fmt.Println("error unmarshalling data: ", err, "| data: ", string(data))
+			log.Fatal("")
 		} else {
-			fmt.Printf("data retreived successfully from database: %s\n", data_decoded)
+			fmt.Println("data retreived successfully from database: \n\n", data_decoded)
 		}
 	}
-	// get values from the db
-	// for k, v := range prompts {
-	// get data from the data base
-	// fmt.Printf("getting data from database: %v\n", v)
-	// data, err := db.Get([]byte("PromptData " + strconv.Itoa(k)))
-	// if err != nil {
-	// 	log.Fatal("error getting data from db: ", err)
-	// }
-	// // convert the data into a promptdata struct
-	// var data_decoded PromptData
-	// if err != nil {
-	// 	log.Fatal("error marshalling data: ", err)
-	// } else {
-	// 	fmt.Println("data: ", string(data))
-	// }
-	// if err = json.Unmarshal(data, &data_decoded); err != nil {
-	// 	fmt.Println("error unmarshalling data: ", err, "| data: ", string(data))
-	// } else {
-	// 	fmt.Printf("data retreived successfully from database: %s\n", data_decoded)
-	// }
-	// }
 
 }
